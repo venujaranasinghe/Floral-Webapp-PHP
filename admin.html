@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel  ="stylesheet" href = "/style.css">
-    <link rel = "stylesheet" href = "../booststrap-grid.min.css">
+    <link rel = "stylesheet" href = "/bootstrap-grid.min.css">
     <link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css">
 
     <title>Document</title>
@@ -12,9 +12,10 @@
 </head>
 <body>
     <header class="header">
-        <div class="flex">
+        <div class="flex container col-lg-11 col-md-6">
+            
             <a href="admin.html" class="logo">Dogwood <span>Flora</span></a>
-            <nav class="navbar ">
+            <nav class="navbar navbar-expand-lg  d-inline-block">
                 <a href="admin.html">Home</a>
                 <a href="admin_product.html">Product</a>
                 <a href="admin_orders.html">Orders</a>
@@ -26,13 +27,14 @@
                 <a type="button" href="#"><i class="ri-menu-line"></i></a>
                 
             </div>
-            <!--<div class="user-box">
+
+            <div class="user-box">
                 <p>username : <span><?php echo $_SESSION['admin_name']; ?></span></p>
                 <p>email : <span><?php echo $_SESSION['admin_email']; ?></span></p>
                 <form method="post" class="logout">
                     <button name="logout" class="logout-btn">LOG OUT</button>
                 </form>
-            </div>-->
+            </div>
         </div>
     </header>
 </body>
