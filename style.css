@@ -79,6 +79,7 @@ a{
     margin: 0 10px;
 }
 
+
 .social-icons a:hover {
     background: transparent;
     border: 2px solid var(--pink);
@@ -153,30 +154,34 @@ header{
     color: #7d3566;
 }
 
+.navbar{
+    margin-right: 50px;
+}
+
 .navbar a{
     margin: 0 1rem;
     font-size: 1rem;
     color: #e84393;
     text-transform: uppercase;
 }
-/*
+
 .navbar a:hover,
 .header .icons i:hover{
     color: #7d3566;
-}*/
+}
 
-/*.header .icons i{
-    margin-left: 1.2rem;
-    font-size: 10px;
+.icons a{
+    font-size: 20px;
     cursor: pointer;
     color: black;
-}*/
+    padding-right: 15px;
+}
 
 #menu-btn{
     display: none;
 }
 
-/*.header .user-box{
+.header .user-box{
     position: absolute;
     top: 150%;
     right: -10%;
@@ -190,7 +195,7 @@ header{
     font-size: 12px;
     display: none;
     transition: .5s;
-}*/
+}
 
 .header .user-box {
     position: absolute;
